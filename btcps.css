@@ -4,4 +4,4 @@
     
     
 }
-@keyframes blinkdd { 50% {  opacity: 0; }  }
+@keyframes blinkdd { 50% {  border-color: #ff0000; }  }
