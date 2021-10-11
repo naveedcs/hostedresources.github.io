@@ -1,3 +1,5 @@
 .payment__currencies {
-    border: 1px solid #e0e0e0 !important;
+    border: 2px solid #e0e0e0 !important;
+    animation: blink 1s;   
 }
+@keyframes blink { 50% { border-color:#fff ; }  }
