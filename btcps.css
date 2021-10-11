@@ -1,8 +1,7 @@
 .payment__currencies {
     border: 2px solid #e0e0e0 !important;
-    animation: blinkdd .5s;
-    animation-iteration-count: 3;
+    animation: blinkdd 1s linear infinite;
     
     
 }
-@keyframes blinkdd { 50% { border-color:#ff0000 ; }  }
+@keyframes blinkdd { 50% {  opacity: 0; }  }
